@@ -6,16 +6,16 @@
 define('MULTISITE', 0);
 
 /** MySQL database name for Osclass */
-define('DB_NAME', 'clasificados');
+define('DB_NAME', 'u636415252_clasi');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'u636415252_clasi');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Ivo@135');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.hostinger.es');
 
 /** Database Table prefix */
 define('DB_TABLE_PREFIX', 'oc_');
