@@ -22,6 +22,6 @@ define('DB_TABLE_PREFIX', 'oc_');
 
 define('REL_WEB_URL', '/riojaclasificados/');
 
-define('WEB_PATH', 'http://localhost/riojaclasificados/');
+define('WEB_PATH', 'http://www.oscarnr.16mb.com/');
 
 ?>
