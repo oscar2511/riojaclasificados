@@ -113,9 +113,9 @@
         </span> </div>
       <?php } ?>
     </div>
-    <?php if( osc_get_preference('search-results-top-728x90', 'osclasswizards_theme') != ""){ ?>
+    <?php /*if( osc_get_preference('search-results-top-728x90', 'osclasswizards_theme') != ""){ ?>
     <div class="ads_search_top"> <?php echo osc_get_preference('search-results-top-728x90', 'osclasswizards_theme'); ?></div>
-    <?php } ?>
+    <?php } */?>
     <?php
             $i = 0;
             osc_get_premiums(osclasswizards_premium_listings_shown());
