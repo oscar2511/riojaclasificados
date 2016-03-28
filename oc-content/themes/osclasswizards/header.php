@@ -80,7 +80,7 @@
   </div>
   <div class="main_header" id="main_header">
     <div class="container">
-      <div id="logo"> <?php echo logo_header(); ?> <span id="description"><?php echo osc_page_description(); ?></span> </div>
+      <div id="logo"><?php echo logo_header(); ?> <span id="description"><?php echo osc_page_description(); ?></span> </div>
       <h2 class="pull-right toggle"><i class="fa fa-align-justify"></i></h2>
       <ul class="links">
         <?php
