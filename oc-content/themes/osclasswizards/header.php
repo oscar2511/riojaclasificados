@@ -28,7 +28,7 @@
 
 <body <?php osclasswizards_body_class(); ?>>
 <header id="header">
-  <div class="top_links">
+  <!--<div class="top_links">
     <div class="container">
       <div class="language">
         <?php ?>
@@ -77,7 +77,7 @@
         <?php } ?>
       </ul>
     </div>
-  </div>
+  </div>-->
   <div class="main_header" id="main_header">
     <div class="container">
       <div id="logo"><?php echo logo_header(); ?> <span id="description"><?php echo osc_page_description(); ?></span> </div>
