@@ -179,7 +179,7 @@
         $breadcrumb = osc_breadcrumb('&raquo;', false, get_breadcrumb_lang());
         if( $breadcrumb !== '') { ?>
   <div class="breadcrumb">
-    <div class="container"> <?php echo $breadcrumb; ?> </div>
+    <div class="container"><?php echo $breadcrumb; ?></div>
   </div>
   <?php
         }
