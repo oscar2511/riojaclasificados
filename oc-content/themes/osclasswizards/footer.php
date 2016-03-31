@@ -56,9 +56,7 @@
           <?php _e('Login', OSCLASSWIZARDS_THEME_FOLDER); ?>
           </a></li>
         <?php if(osc_user_registration_enabled()) { ?>
-        <li> <a href="<?php echo osc_register_account_url(); ?>">
-          <?php _e('Register for a free account', OSCLASSWIZARDS_THEME_FOLDER); ?>
-          </a> </li>
+        
         <?php } ?>
         <?php } ?>
         <?php } ?>
