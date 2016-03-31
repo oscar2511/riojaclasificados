@@ -52,10 +52,6 @@
                   <input class="input-text" type="text" name="sPattern"  id="query" value="<?php echo osc_esc_html(osc_search_pattern()); ?>" />
                 </div>
               </fieldset>
-			  
-			    
-			  
-
               <?php if( osc_images_enabled_at_items() ) { ?>
               <fieldset>
                 <h3>

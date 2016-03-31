@@ -25,7 +25,7 @@ img {max-width: 100%;width: auto\9;height: auto;vertical-align: middle;border: 0
 }
 button, input, select, textarea {margin: 0;font-size: 100%;vertical-align: middle
 }
-h1, h2, h3, h4, h5, h6 {font-weight: 700;line-height: normal;margin: 0 0 15px;
+h1, h2, h3, h4, h5, h6 {line-height: normal;margin: 0 0 15px;
 }
 h1 {font-size: 15px;margin-bottom: 0;
 }
@@ -53,7 +53,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus {outline: non
 }
 textarea {height: 200px;
 }
-.form-group label, .meta label, .meta, .row label {font-weight: 700;text-transform: capitalize;
+.form-group label, .meta label, .meta, .row label {text-transform: capitalize;
 }
 .meta_list .meta .cf_date_interval {width: 150px;
 }
@@ -78,7 +78,7 @@ textarea {height: 200px;
 }
 .control-label sup {color: #F00;
 }
-.btn, .forgot .form-container-box .resp-wrapper .ui-button {height: 35px;line-height: 35px;padding: 0 25px;text-transform: uppercase;border: 0;font-weight: 700;
+.btn, .forgot .form-container-box .resp-wrapper .ui-button {height: 35px;line-height: 35px;padding: 0 25px;text-transform: uppercase;border: 0;
 }
 .btn_search {padding: 0;width: 100%;text-align: center;
 }
@@ -172,7 +172,7 @@ textarea {height: 200px;
 }
 .links li {display: inline-block;margin: 0 15px 0 0;
 }
-.links a {display: block;font-size: 15px;font-weight: 700;text-transform: uppercase;
+.links a {display: block;font-size: 15px;text-transform: uppercase;
 }
 .publish {float: right;
 }
