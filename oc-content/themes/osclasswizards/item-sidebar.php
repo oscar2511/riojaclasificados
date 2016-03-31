@@ -52,9 +52,15 @@
     </div>
     <h3 class="name">
 	  <i class="fa fa-user"></i>
-      <a href="<?php echo osc_user_public_profile_url( osc_item_user_id() ); ?>" ><?php echo osc_item_contact_name(); ?></a></h3>
+      <a href="<?php echo osc_user_public_profile_url( osc_item_user_id() ); ?>" ><?php echo osc_item_contact_name(); ?></a>
+    </h3>
+    <h3 class="name">
+	  <i class="fa fa-phone"></i>
+      <?php osc_telephone_number(); ?>
+    </h3>
     <?php } else { ?>
     <h3 class="name"><i class="fa fa-user"></i><?php printf('%s', osc_item_contact_name()); ?></h3>
+    <h3 class="name"><i class="fa fa-phone"></i><?php osc_telephone_number(); ?></h3>
     <?php } ?>
     <?php if( osc_item_show_email() ) { ?>
     <p class="email"><?php printf(__('E-mail: %s', OSCLASSWIZARDS_THEME_FOLDER), osc_item_contact_email()); ?></p>

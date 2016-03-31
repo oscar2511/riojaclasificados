@@ -138,17 +138,6 @@
             <?php     } ?>
             <?php } ?>
           </li>
-          <li><a href="<?php echo osc_item_send_friend_url(); ?>" rel="nofollow">
-            <?php _e('Share', OSCLASSWIZARDS_THEME_FOLDER); ?>
-            </a></li>
-          <?php if(function_exists('watchlist')) {?>
-          <li>
-            <?php watchlist(); ?>
-          </li>
-          <?php } ?>
-          <li><a class="see_all" href="<?php echo osc_user_public_profile_url( osc_item_user_id() ); ?>">
-            <?php _e('See all ads from this advertiser', OSCLASSWIZARDS_THEME_FOLDER); ?>
-            </a> </li>
         </ul>
         <?php osc_run_hook('location'); ?>
       </div>
@@ -159,15 +148,7 @@
           <?php _e('Useful information', OSCLASSWIZARDS_THEME_FOLDER); ?>
         </h1>
         <ul>
-          <li>
-            <?php _e('Avoid scams by acting locally or paying with PayPal', OSCLASSWIZARDS_THEME_FOLDER); ?>
-          </li>
-          <li>
-            <?php _e('Never pay with Western Union, Moneygram or other anonymous payment services', OSCLASSWIZARDS_THEME_FOLDER); ?>
-          </li>
-          <li>
-            <?php _e('Don\'t buy or sell outside of your country. Don\'t accept cashier cheques from outside your country', OSCLASSWIZARDS_THEME_FOLDER); ?>
-          </li>
+          
           <li>
             <?php _e('This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer "buyer protection" or "seller certification"', OSCLASSWIZARDS_THEME_FOLDER); ?>
           </li>

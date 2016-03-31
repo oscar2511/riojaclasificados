@@ -148,6 +148,13 @@
               </div>
             </div>
             <div class="form-group">
+              <label class="control-label" for="contactName">
+              </label>
+              <div class="controls">
+                <?php osc_set_telephone_number(); ?>
+              </div>
+            </div>
+            <div class="form-group">
               <div class="controls checkbox">
                 <?php ItemForm::show_email_checkbox(); ?>
                 <label for="showEmail">
